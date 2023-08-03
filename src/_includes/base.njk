@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        {% set css -%}{% include "site.css" %}{% endset -%}<style>{{ css | cssmin | safe }}</style>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+          <h1>{{title}}</h1>  
+          {{ content | safe }}
+        </main>
+        <footer>
+          <section><p>&copy; 2023</p></section>
+        </footer>
+      </body>
+</html>
