@@ -4,7 +4,7 @@
 ## Setup
 Create new repo on github with Github Desktop and set up folder for project.
 Download zip from 11ty Simons stater pack and unpack files to project folder. There will be a duplicate of the .gitattirbutes file. Delete the duplicate.
-OPen project folder in VS Code and cnrtl` to open terminal.
+Open the project folder in VS Code and press cnrtl` to open terminal in VS Code.
 
 ## Installation
 **Run:** 
@@ -23,3 +23,5 @@ npm install clean-css
   },
 
 **Run NPM atart eleventy --serve**
+
+Start building out the new project!
