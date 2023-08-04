@@ -15,3 +15,36 @@ body{
   margin: 1rem;
   padding: 0;
 }
+
+main {
+  background-color: var(--colour4);
+  box-sizing: content-box;
+  margin-inline: auto;
+  max-inline-size: var(--measure);
+  padding:1rem 2rem 4rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: -80px;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--colour1);
+  margin: 1rem 0 0 0;
+  text-wrap: balance;
+}
+p {
+  margin: 0 0 1rem 0;
+}
+
+footer {
+  color: var(--colour4);
+  margin:0;
+  padding:0;
+  border:0;
+  width: 100%;
+
+}
