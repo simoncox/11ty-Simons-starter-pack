@@ -12,17 +12,22 @@ npm install @11ty/eleventy@latest
 npm install clean-css
 
 **in package.json change:**
+
 <code>"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },</code>
+
 **to:**
+
 <code>"scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
   },</code>
 
-**Run NPM atart eleventy --serve**
+**Run NPM script:** 
+start eleventy --serve
 
-Start building out the new project!
-
-CSS is in the _includes folder as site.css and the clean-css package minifies this and adds it as inline css in the head of the html files for sheer page load speed.
+Start building out your new project!
+•Create files in /src.
+•Output files are in /public.
+•CSS is in the _includes folder as site.css and the clean-css package minifies this and adds it as inline css in the head of the html files for sheer page load speed.
