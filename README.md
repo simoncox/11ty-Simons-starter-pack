@@ -8,7 +8,7 @@ Open the project folder in your code app (Visual Studio Code for me where I can 
 ## Installation
 **Run:** 
 
-* npm innit -y
+* npm init -y
 * npm install @11ty/eleventy@latest
 * npm install clean-css
 
