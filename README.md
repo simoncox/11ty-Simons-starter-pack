@@ -12,14 +12,14 @@ npm install @11ty/eleventy@latest
 npm install clean-css
 
 **in package.json change:**
-"scripts": {
+<code>"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },</code>
 **to:**
-"scripts": {
+<code>"scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
-  },
+  },</code>
 
 **Run NPM atart eleventy --serve**
 
