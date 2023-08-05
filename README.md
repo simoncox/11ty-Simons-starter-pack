@@ -27,7 +27,7 @@ Open the project folder in your code app (Visual Studio Code for me where I can 
 
 **Run NPM script:** 
 
-start eleventy --serve
+npm start eleventy --serve
 
 Start building out your new project!
 * Create files in /src.
