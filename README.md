@@ -14,16 +14,16 @@ Open the project folder in your code app (Visual Studio Code for me where I can 
 
 **in package.json change:**
 
-<code>"scripts": {
+<pre><code>"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },</code>
+  },</code></pre>
 
 **to:**
 
-<code>"scripts": {
+<pre><code>"scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
-  },</code>
+  },</code></pre>
 
 **Run NPM script:** 
 
