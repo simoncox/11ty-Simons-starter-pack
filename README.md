@@ -7,9 +7,10 @@ Open the project folder in your code app (Visual Studio Code for me where I can 
 
 ## Installation
 **Run:** 
-npm innit -y
-npm install @11ty/eleventy@latest
-npm install clean-css
+
+* npm innit -y
+* npm install @11ty/eleventy@latest
+* npm install clean-css
 
 **in package.json change:**
 
@@ -25,9 +26,10 @@ npm install clean-css
   },</code>
 
 **Run NPM script:** 
+
 start eleventy --serve
 
 Start building out your new project!
-•Create files in /src.
-•Output files are in /public.
-•CSS is in the _includes folder as site.css and the clean-css package minifies this and adds it as inline css in the head of the html files for sheer page load speed.
+* Create files in /src.
+* Output files are in /public.
+* CSS is in the _includes folder as site.css and the clean-css package minifies this and adds it as inline css in the head of the html files for sheer page load speed.
