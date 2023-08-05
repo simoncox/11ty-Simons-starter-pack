@@ -2,9 +2,8 @@
  Blank 11ty starter
 
 ## Setup
-Create new repo on github with Github Desktop and set up folder for project.
-Download zip from 11ty Simons stater pack and unpack files to project folder. There will be a duplicate of the .gitattirbutes file. Delete the duplicate.
-Open the project folder in VS Code and press cnrtl` to open terminal in VS Code.
+This is a template so you can create new repo on github by clicking the green button 'Use this template'.
+Open the project folder in your code app (Visual Studio Code for me where I can press Ctrl` to open terminal for the next bit).
 
 ## Installation
 **Run:** 
@@ -25,3 +24,5 @@ npm install clean-css
 **Run NPM atart eleventy --serve**
 
 Start building out the new project!
+
+CSS is in the _includes folder as site.css and the clean-css package minifies this and adds it as inline css in the head of the html files for sheer page load speed.
